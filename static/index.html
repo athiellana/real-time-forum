@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="only_facts">Only facts</h1>
+    <div id="login_form">
+        <form action="" method="post" class="login_questions" id="form_login">
+            <h2 id="login_title">Oh, hi friend! Welcome back!</h2>
+            <p id="login_blabla">Log in to see what you've missed!</p>
+            <label for="username_mail">Username or Email:</label>
+            <input type="text" id="username_mail" name="username_mail" placeholder="Pseudo / mail@mail.com" required>
+            <br>
+            <label for="password_login">Password:</label>
+            <input type="password" id="password_login" name="password_login" placeholder="··············" required>
+            <br>
+            <div id="buttons_login">
+                <input type="button" onclick="login(this.form)" value="Login" id="button_login" class="button_login">
+                <br>
+                <label for="login_register">Not a member yet?</label>
+                <input type="button" value="Register" id="register_login" class="register_login" name="register_login">
+                <br>
+            </div>
+        </form>
+    </div>
+    <div id="register_form">
+        <form action="" method="post" class="register_questions" id="form_register">
+            <h2 id="register_title">Register to see more.</h2>
+            <p id="register_blabla">Wanna interact with our community, share your thoughts or just read some cool facts? Register now!</p>
+            <br>
+            <label for="first_name">First name:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="John" required>
+            <br>
+            <label for="last_name">Last name:</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Smith" required>
+            <br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Pseudo123" required>
+            <br>
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" name="gender" placeholder="Male/Female" required>
+            <br>
+            <label for="email">Your mail:</label>
+            <input type="email" id="email" name="email" placeholder="yourmail@mailbox.com" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="··············" required>
+            <br>
+            <label for="repeat_password">Repeat password:</label>
+            <input type="password" id="repeat_password" name="repeat_password" placeholder="··············" required>
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" placeholder="20" required>
+            <br>
+            <div id="buttons_register">
+                <input type="button" onclick="register(this.form)" value="Register" id="button_register" class="button_register">
+                <br>
+                <label for="login_register">Already member?</label>
+                <input type="button" value="Login" id="login_register" class="login_register" name="login_register">
+                <br>
+            </div>
+        </form>
+    </div>
+    <div id="home_page">
+        <form action="" method="post" class="write_post" id="write_post">
+            <div id="create_post">
+            <h2 id="create_post_title">Share your fact!</h2>
+            <input type="text" id="create_post_content" name="create_post_content" required>
+            <div id="buttons_create_post">
+                <br>
+                <input type="button" onclick="post(this.form)" value="Post" id="post_post" class="post_post" name="post_post">
+                <br>
+            </div>
+            <br>
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <div id="display_posts">
+        <div id="post">
+            <p id="post_content"></p>
+            <p id="created_by">Post by {{.Username}} </p>
+            <input type="button" value="Comment" id="comment_post" class="comment_post" name="comment_post">
+            <br>
+        </div>
+    </div>
+    <br>
+</div>
+<script src="../script/index.js"></script>
+</body>
+</html>

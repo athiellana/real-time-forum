@@ -1,0 +1,331 @@
+body {
+    background-color:rgb(197, 164, 120);
+}
+
+#only_facts {
+}
+
+/* DESIGN DES FORMS POUR SE REGISTER ET SE LOGIN */
+
+#register_form {
+    display: none;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#register_form[style*="display: block"] {
+    display: flex !important;
+}
+
+#login_form {
+    display: none;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#login_form[style*="display: block"] {
+    display: flex !important;
+}
+
+.register_questions {
+    width: 700px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 50px 0 50px;
+    background: white;
+}
+
+
+#form_register {
+    box-shadow: 5px 8px 8px black;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 25px;
+}
+
+#form_register > label {
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+#form_register > select, #form_register > textarea {
+    background-color:antiquewhite ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+#login_form {
+    display: flex;
+    justify-content: center;
+}
+
+#form_login {
+    box-shadow: 5px 8px 8px black;
+    display: grid;
+}
+
+.login_questions {
+    width: 700px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 50px 0 50px;
+    background: white;
+}
+
+#form_login {
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 25px;
+}
+
+#form_login > label {
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+#form_login > select, #login_register > textarea {
+    background-color:antiquewhite ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+#first_name {
+    background-color:antiquewhite ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+#last_name {
+    background-color:antiquewhite ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+#username {
+    background-color:antiquewhite ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+#username_mail {
+    background-color:antiquewhite ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+#password {
+    background-color:antiquewhite ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+#password_login {
+    background-color:antiquewhite ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+#email {
+    background-color:antiquewhite ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+#repeat_password {
+    background-color:antiquewhite ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+#gender {
+    background-color:antiquewhite ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+#age {
+    background-color:antiquewhite ;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.25);
+}
+
+#button_register {
+    cursor: pointer;
+    width: 150px;
+    max-width: 300px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #303030;
+}
+
+#button_login {
+    cursor: pointer;
+    width: 150px;
+    max-width: 300px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #303030;
+}
+
+#register_login {
+    cursor: pointer;
+    width: 150px;
+    max-width: 300px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #303030;
+}
+
+#login_register {
+    cursor: pointer;
+    width: 150px;
+    max-width: 300px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #303030;
+}
+
+#buttons_register {
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+#buttons_login {
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+/* DESIGN DE LA CREATION DE POSTS */
+
+#home_page {
+    display: grid;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#post {
+    display: flex;
+    justify-content: center;
+}
+
+#create_post {
+    display: grid;
+    box-shadow: 5px 8px 8px black;
+    justify-content: center;
+    width: 580px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 50px 0 50px;
+    background: white;
+}
+
+#create_post_content {
+    width: 100%;
+    height: 240px;
+}
+
+#post_post {
+    cursor: pointer;
+    width: 150px;
+    max-width: 300px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #303030;
+}
+
+#buttons_create_post {
+    display: grid;
+    justify-content: center;
+}
+
+/*DESIGN DES POSTS */
+
+#post {
+    box-shadow: 5px 8px 8px black;
+    display: grid;
+    justify-items: center;
+    width: 580px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 0 50px 0 50px;
+    background: white;
+}
+
+#comment_post {
+    cursor: pointer;
+    width: 150px;
+    max-width: 300px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    background: white;
+    border: rgba(48, 48, 48, 0.5) solid 1px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    color: #303030;
+}
